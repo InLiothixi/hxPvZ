@@ -1,0 +1,38 @@
+<Emitter>
+  <Name>SpikeSplat</Name>
+  <SpawnMinActive>1</SpawnMinActive>
+  <SpawnMaxLaunched>1</SpawnMaxLaunched>
+  <ParticleDuration>20</ParticleDuration>
+  <ParticleAlpha>.9,70 0</ParticleAlpha>
+  <ParticleScale>[.4 .6] [.8 1.2]</ParticleScale>
+  <EmitterRadius>[0 10]</EmitterRadius>
+  <EmitterType>Emitter(0)</EmitterType>
+  <SystemDuration>20</SystemDuration>
+  <ImageFrames>4</ImageFrames>
+  <Image>IMAGE_SPIKE_SPLATS</Image>
+  <RandomLaunchSpin>1</RandomLaunchSpin>
+</Emitter>
+<Emitter>
+  <Name>SpikeSplatBits</Name>
+  <SpawnMinActive>[6 10]</SpawnMinActive>
+  <ParticleDuration>20</ParticleDuration>
+  <ParticleAlpha>1,80 0</ParticleAlpha>
+  <ParticleScale>[.8 1.2]</ParticleScale>
+  <EmitterRadius>[0 10]</EmitterRadius>
+  <EmitterType>Emitter(0)</EmitterType>
+  <SystemDuration>20</SystemDuration>
+  <ImageFrames>3</ImageFrames>
+  <Image>IMAGE_SPIKE_PARTICLES</Image>
+  <Field>
+    <FieldType>Friction</FieldType>
+    <X>0,40 .1</X>
+    <Y>0,40 .1</Y>
+  </Field>
+  <Field>
+    <FieldType>Acceleration</FieldType>
+    <Y>10</Y>
+  </Field>
+  <ParticleSpinSpeed>[-200 200]</ParticleSpinSpeed>
+  <RandomLaunchSpin>1</RandomLaunchSpin>
+  <LaunchSpeed>[150]</LaunchSpeed>
+</Emitter>
